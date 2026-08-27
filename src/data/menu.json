@@ -1,0 +1,646 @@
+{
+  "Soup": [
+    {
+      "name": "Mix Seafood Soup",
+      "price": 399.0,
+      "description": "Asian style mix sea food mild spicy soup"
+    },
+    {
+      "name": "Minestrone Soup",
+      "price": 350.0,
+      "description": "A hearty, classic italian soup made with variety of seasonal veg in a savory often tomato -broth"
+    }
+  ],
+  "Dim Sum": [
+    {
+      "name": "Chicken Shumai",
+      "price": 520.0,
+      "description": "Open face dumplings traditionally made with mince chicken served with chilli oil"
+    },
+    {
+      "name": "Vegetables Poached Peaking Dim Sum",
+      "price": 420.0,
+      "description": "Poached dim sum on the bed of homemade sesame and tomato sauce"
+    }
+  ],
+  "Small Eat": [
+    {
+      "name": "Kung Pao Chicken",
+      "price": 525.0,
+      "description": "A spicy stir-fried cube chicken made with peanuts and chilli pepper caramelized soya"
+    },
+    {
+      "name": "Animal Prawns",
+      "price": 650.0,
+      "description": "Japanese's tempura is light and crispy fried prawns in dynamic prawns"
+    },
+    {
+      "name": "Cajun Chicken Skwers",
+      "price": 525.0,
+      "description": "Supreme chicken marinated in cajun spice, thyme chilli flakes oregano harish paste and grilled on char coal"
+    },
+    {
+      "name": "Crispy Calamari",
+      "price": 599.0,
+      "description": "Crispy fried squid with morning glory serve with sriracha mayo"
+    },
+    {
+      "name": "Tandoori Pomfret",
+      "price": 650.0,
+      "description": "Fish marinated in a spicy and pungent mixture tandoori masala"
+    },
+    {
+      "name": "Mushroom Croquettes",
+      "price": 580.0,
+      "description": "Bechamel wild mushrooms chipotle mayo with truffle oil"
+    },
+    {
+      "name": "Thecha Paneer",
+      "price": 550.0,
+      "description": "A spicy and flavourful paneer with fiery thecha a traditional maharashtrain chutney"
+    }
+  ],
+  "Salad's": [
+    {
+      "name": "Som Tum Salad",
+      "price": 450.0,
+      "description": "Thai green papaya salad is vibrant crunchy textureof sweet, spicy, sou rand salty flavors"
+    },
+    {
+      "name": "Caesar Salad",
+      "price": 580.0,
+      "description": "Green salad of romaine lettuce and croutons avocado with olive oil and creamy dressings"
+    }
+  ],
+  "Breads & Pizza": [
+    {
+      "name": "Paneer Tikka Pizza",
+      "price": 580.0,
+      "description": "Marinated tandoori cottage cheese bell pepper, onions topping on a traditional pizza base"
+    },
+    {
+      "name": "Smoke Chicken Cheese Pizza",
+      "price": 720.0,
+      "description": "Tender smokey chicken paired with creamy cheese and savory sauce"
+    },
+    {
+      "name": "Avocado Toast",
+      "price": 475.0,
+      "description": "Sour dough toast open sandwich topped with mashed avocado choice of poached eggs /sunny side up eggs"
+    },
+    {
+      "name": "Eggs",
+      "price": 250.0,
+      "description": "English muffin, topped with chicken ham with poached eggs topped with hollandaise sauce"
+    },
+    {
+      "name": "Open Face Bao",
+      "price": 480.0,
+      "description": "Choice of chicken & cottage cheese chilly and crispy chilly oil"
+    },
+    {
+      "name": "Classic Hummus",
+      "price": 580.0,
+      "description": "Creamy classic hummus with falafel and pita breads choice of chicken and veg"
+    },
+    {
+      "name": "Cheese Chilli Toast",
+      "price": 450.0,
+      "description": "French bucket toast top with chilly cheese"
+    },
+    {
+      "name": "Roti/Naan/Lachha Paratha",
+      "price": null,
+      "description": ""
+    }
+  ],
+  "Sushi": [
+    {
+      "name": "California Veg",
+      "price": 700.0,
+      "description": "The classic california roll featuring creamy cheese avocado crisp cucumber"
+    },
+    {
+      "name": "Prawns Tampura Roll",
+      "price": 895.0,
+      "description": "Stuffed with crunchy shrimp tempura creamy avocado and japanese mayo"
+    }
+  ],
+  "Mains Course": [
+    {
+      "name": "Penne In Porcini Cream Sauce",
+      "price": 610.0,
+      "description": "Pasta tossed in a creamy sauce infused with the deep earthy flavors of porchoni mushroom"
+    },
+    {
+      "name": "Spaghetti Bologanes",
+      "price": 660.0,
+      "description": "The richness of italian bolognas with spicy savory and slightly sweet complexity of korean gochujang sauce"
+    },
+    {
+      "name": "Chicken Massaman Curry With Steam Jasmine Rice",
+      "price": 750.0,
+      "description": "A rich creamy and mildly spicy aromatic coconut base thai curry"
+    },
+    {
+      "name": "Laal Maas",
+      "price": 750.0,
+      "description": "A fiery red and spicy rajasthani mutton curry made with mathania chilli"
+    },
+    {
+      "name": "Saag Burata",
+      "price": 580.0,
+      "description": "Sarson ka saag is a punjabi winter dish with made with fresh mustard green"
+    },
+    {
+      "name": "Butterfly Blue Pea Jasmine Rice",
+      "price": 580.0,
+      "description": "Vibrant dish made by cooking rice infused with butterfly pea flower giving it a striking blue colour (veg/chicken)"
+    },
+    {
+      "name": "Malasiyan Noodles",
+      "price": 520.0,
+      "description": "Wok tossed stir noodles in soya, chilli sauce with exotic vegetables"
+    },
+    {
+      "name": "Dal Makhani",
+      "price": 520.0,
+      "description": "Dal makhani is a rich creamy punjabi dish"
+    }
+  ],
+  "Smoothie Bowls": [
+    {
+      "name": "Dark Knight",
+      "price": 450.0,
+      "description": "Mix of chocolate dates bananas almonds milk cacao nibs top with fruits and granola nuts"
+    },
+    {
+      "name": "Acai Bowl",
+      "price": 350.0,
+      "description": "A thick nutrient homemade smoothie mix berry and other fruits topped with variety of fresh ingredients"
+    }
+  ],
+  "Dessert": [
+    {
+      "name": "Butter Milk Pancakes",
+      "price": 450.0,
+      "description": "With maple syrup/chocolate/ raspberry jam"
+    },
+    {
+      "name": "Classic French Chocolate Mousse",
+      "price": 350.0,
+      "description": ""
+    },
+    {
+      "name": "Matcha Chocolate Hazelnuts Pull Me Up",
+      "price": 595.0,
+      "description": "A unique pull me layering with crispy hazelnuts rich chocolate and earthy matcha for dramatic fusion of flavour"
+    },
+    {
+      "name": "Strawberry With Chocolate",
+      "price": 399.0,
+      "description": "Natural sweetness of fresh strawberry with rich chocolate sauce"
+    },
+    {
+      "name": "Gadbad Sunday Ice Cream",
+      "price": 450.0,
+      "description": "Gadbad ice cream is known for its chaotic mix of colour flavours and textures"
+    }
+  ],
+  "Classic Cocktails": [
+    {
+      "name": "Mimosa",
+      "price": 580.0,
+      "description": "Sparkling elegance of orange"
+    },
+    {
+      "name": "Bellini",
+      "price": 580.0,
+      "description": "Chilled sparkling wine blended peach pur\u00e9e for a delicate, elegant sip"
+    },
+    {
+      "name": "Cosmopolitan",
+      "price": 580.0,
+      "description": "Vodka, cranberry & citrus come together in a crisp, elegant cocktail"
+    },
+    {
+      "name": "Singapore Sling",
+      "price": 580.0,
+      "description": "Bright, aromatic & balanced, a sophisticated mix of gin, fruit & herbal flavours"
+    },
+    {
+      "name": "Black Russian",
+      "price": 580.0,
+      "description": "Smooth vodka and rich coffee liqueur create a bold classic cocktail."
+    },
+    {
+      "name": "Tom Collins",
+      "price": 580.0,
+      "description": "A classic blend of gin, lemon, sugar & soda for a crisp, refreshing sip."
+    },
+    {
+      "name": "Blue Lagoon",
+      "price": 580.0,
+      "description": "Dive into a refreshing splash of vodka and blue cura\u00e7ao, brightened with zesty lemonade"
+    },
+    {
+      "name": "Sex On The Beach",
+      "price": 580.0,
+      "description": "Sunkissed, beach vibes & a cheeky twist, sweet peach, tart cranberry & smooth vodka"
+    },
+    {
+      "name": "Planter's Punch",
+      "price": 580.0,
+      "description": "Sunkissed pineapple, tangy orange & rum, cheerful and refreshing."
+    },
+    {
+      "name": "Bloody Marry",
+      "price": 580.0,
+      "description": "A bold savoury adventure with vodka, fresh tomato and a zing of spices."
+    },
+    {
+      "name": "Negroni",
+      "price": 690.0,
+      "description": "Bold and balanced with gin, sweet vermouth and a touch of bitter orange."
+    },
+    {
+      "name": "Daiquiri",
+      "price": 580.0,
+      "description": "Smooth and vibrant rum cocktail with your choice of classic, watermelon, blueberry, orange or cola."
+    },
+    {
+      "name": "Martini",
+      "price": 580.0,
+      "description": "A timeless gin cocktail served your way, with choices of classic, dirty, espresso, spicy or ayame style"
+    },
+    {
+      "name": "Margarita",
+      "price": 690.0,
+      "description": "Smooth, bright and fun, a tequila mix made just for you in classic, watermelon, pineapple, strawberry, blueberry or frozen."
+    },
+    {
+      "name": "Mojito",
+      "price": 580.0,
+      "description": "A refreshing rum cocktail with your choice of citrus, strawberry, watermelon or signature ayame drama."
+    },
+    {
+      "name": "Aperol Spritz",
+      "price": 580.0,
+      "description": "A sparkling orange classic with aperol, prosecco and splash of soda."
+    }
+  ],
+  "Picante's Signature Mocktails": [
+    {
+      "name": "Classic Picante",
+      "price": 790.0,
+      "description": "A bold mix of tequila, lime, and agave lifted with fresh chili heat and coriander for a fiery yet refreshing sip"
+    },
+    {
+      "name": "Green Grenada",
+      "price": 580.0,
+      "description": "Icy slush of green apple, cucumber & lime, topped with sparkling soda."
+    },
+    {
+      "name": "Spicy Passion",
+      "price": 580.0,
+      "description": "Tangy passion fruit balanced with a bold jalape\u00f1o kick."
+    },
+    {
+      "name": "Clearified Picante Twist",
+      "price": 1100.0,
+      "description": "A modern twist on the classic, with clarified tequila spice notes and a refreshing mint, basil foam finish."
+    },
+    {
+      "name": "Tango Melon",
+      "price": 580.0,
+      "description": "Juicy watermelon, pineapple & orange in a refreshing fizzy blend."
+    },
+    {
+      "name": "Salsa Picante",
+      "price": 790.0,
+      "description": "A fiery blend of tequila, lime, and agave, lifted with chili heat and finished with a savory splash of salsa sauce"
+    },
+    {
+      "name": "Electric Mojito",
+      "price": 580.0,
+      "description": "Virgin mojito with blue curacao, topped with energizing red bull foam."
+    },
+    {
+      "name": "Tamrind Picante",
+      "price": 790.0,
+      "description": "Earthy tamarind, chili heat, and fresh lime elevate tequila into a fiery yet refreshing cocktail."
+    },
+    {
+      "name": "Tropical Sweety",
+      "price": 580.0,
+      "description": "Tropical, tart & fun, a fruity explosion in every sip."
+    },
+    {
+      "name": "Berry Bite",
+      "price": 580.0,
+      "description": "Juicy strawberries and blueberries topped with sparkling soda."
+    },
+    {
+      "name": "Blueberry Cheese Cake Shakky",
+      "price": 580.0,
+      "description": "A luscious treat rich shake blended with our signature blueberry sauce"
+    }
+  ],
+  "Liit": [
+    {
+      "name": "Long Island Iced Tea",
+      "price": 850.0,
+      "description": "Smooth, strong & refreshing, the ultimate cocktail mix."
+    },
+    {
+      "name": "Long Beach",
+      "price": 850.0,
+      "description": "Classic liit reinvented with tangy cranberry & fresh citrus."
+    },
+    {
+      "name": "Bull's Island",
+      "price": 950.0,
+      "description": "Classic liit electrified with blue curacao and a red bull lift."
+    },
+    {
+      "name": "Dark Side Land",
+      "price": 850.0,
+      "description": "Deep, dark & fizzy, your long island with an edge."
+    },
+    {
+      "name": "Passionate Island",
+      "price": 850.0,
+      "description": "Exotic passion fruit meets classic liit, finished with sparkling soda."
+    }
+  ],
+  "Liqueurs": [
+    {
+      "name": "Cointreau",
+      "price": 420.0,
+      "description": ""
+    },
+    {
+      "name": "Peach Schnapps",
+      "price": 360.0,
+      "description": ""
+    },
+    {
+      "name": "Triple Sec",
+      "price": 260.0,
+      "description": ""
+    },
+    {
+      "name": "Cinzano Rosso",
+      "price": 260.0,
+      "description": ""
+    },
+    {
+      "name": "Martini Bianco",
+      "price": 260.0,
+      "description": ""
+    },
+    {
+      "name": "Baileys Irish Cream",
+      "price": 420.0,
+      "description": ""
+    },
+    {
+      "name": "Kahlua",
+      "price": 420.0,
+      "description": ""
+    },
+    {
+      "name": "Campari",
+      "price": 470.0,
+      "description": ""
+    },
+    {
+      "name": "Aperol",
+      "price": 420.0,
+      "description": ""
+    },
+    {
+      "name": "Sambuca",
+      "price": 520.0,
+      "description": ""
+    },
+    {
+      "name": "Tequila Rose",
+      "price": 520.0,
+      "description": ""
+    },
+    {
+      "name": "Jagermeister",
+      "price": 570.0,
+      "description": ""
+    },
+    {
+      "name": "Absente 49",
+      "price": 630.0,
+      "description": ""
+    }
+  ],
+  "Shots": [
+    {
+      "name": "Kamikaze",
+      "price": 300.0,
+      "description": "A zesty little punch that wakes up your taste buds with vodka and lime"
+    },
+    {
+      "name": "B52",
+      "price": 480.0,
+      "description": "A layered delight with coffee liqueur, baileys, and orange liqueur, smooth and indulgent."
+    },
+    {
+      "name": "Zombie Brain",
+      "price": 480.0,
+      "description": "Bold, whimsical, and full of flavour, a shot with a spooky twist."
+    },
+    {
+      "name": "Hulk Buster",
+      "price": 480.0,
+      "description": "Powerful tequila green punch of flavours that hits hard."
+    },
+    {
+      "name": "Blood Drop",
+      "price": 480.0,
+      "description": "Sweet, dark, and unforgettable, a lively mix of baileys, rum, vodka, and grenadine."
+    },
+    {
+      "name": "Jager Bomb",
+      "price": 750.0,
+      "description": "A fun, fizzy kick that gets the party started with j\u00e4germeister and energy drink."
+    }
+  ],
+  "Signature Cocktails": [
+    {
+      "name": "Paloma Del Sol",
+      "price": 780.0,
+      "description": "A zesty tequila blend with fresh passion fruit & grapefruit"
+    },
+    {
+      "name": "Ayame Collins",
+      "price": 780.0,
+      "description": "A sparkling gin collins with juicy malta & fresh orange zest."
+    },
+    {
+      "name": "Ash N Oak",
+      "price": 780.0,
+      "description": "Bold whisky, mellowed with charcoal for a refined edge."
+    },
+    {
+      "name": "Garden Sangria (Red/White)",
+      "price": 780.0,
+      "description": "Juicy, colourful & refreshing, choose red or white wine to match your mood."
+    },
+    {
+      "name": "Sour Zen",
+      "price": 780.0,
+      "description": "Classic whisky sour reimagined with herbs, spices & papaya."
+    },
+    {
+      "name": "Inverted Rush",
+      "price": 780.0,
+      "description": "Wake up your senses with coffee, orange & beer fusion."
+    },
+    {
+      "name": "Velvet Touch",
+      "price": 780.0,
+      "description": "A cheeky vodka cocktail with dessert vibes & citrus zing"
+    },
+    {
+      "name": "Cyclone Rider",
+      "price": 780.0,
+      "description": "Strong bourbon whiskey collides with rich coffee and tiramisu."
+    },
+    {
+      "name": "No Monkey Business",
+      "price": 780.0,
+      "description": "A refined whisky highball with caramelised banana notes & crisp bubbles."
+    },
+    {
+      "name": "Scarlet Tide",
+      "price": 780.0,
+      "description": "Three white spirits with a tangy orange liqueur and fresh pomegranate."
+    },
+    {
+      "name": "Snow Forest",
+      "price": 780.0,
+      "description": "Herbaceous gin, wine & apple collide in a sparkling, spiced forest escape"
+    },
+    {
+      "name": "Akai Kaze",
+      "price": 780.0,
+      "description": "Bold gin martini with jasmine rice aroma, dragon fruit sweetness, lychee freshness & a wasabi kick"
+    },
+    {
+      "name": "Ocmelis",
+      "price": 780.0,
+      "description": "Herbaceous gin, umami and curry leaves in a clear, crisp serve."
+    },
+    {
+      "name": "Swaying Palms",
+      "price": 780.0,
+      "description": "Vodka infused with house made spiced pineapple syrup and a zesty twist of chaat masala."
+    }
+  ],
+  "Vodka": [
+    {
+      "name": "Skyy",
+      "price": 320.0,
+      "description": ""
+    },
+    {
+      "name": "Smirnoff",
+      "price": 320.0,
+      "description": ""
+    },
+    {
+      "name": "Smirnoff Flavours",
+      "price": 370.0,
+      "description": ""
+    },
+    {
+      "name": "Ketel One",
+      "price": 370.0,
+      "description": ""
+    },
+    {
+      "name": "Absolut",
+      "price": 400.0,
+      "description": ""
+    },
+    {
+      "name": "Absolut Flavours",
+      "price": 420.0,
+      "description": ""
+    },
+    {
+      "name": "Grey Goose",
+      "price": 630.0,
+      "description": ""
+    },
+    {
+      "name": "Belvedere",
+      "price": 630.0,
+      "description": ""
+    },
+    {
+      "name": "Ciroc Snap Frost",
+      "price": 630.0,
+      "description": ""
+    },
+    {
+      "name": "Beluga Gold Line",
+      "price": 2600.0,
+      "description": ""
+    }
+  ],
+  "Gin": [
+    {
+      "name": "Greater Than",
+      "price": 260.0,
+      "description": ""
+    },
+    {
+      "name": "Bulldog",
+      "price": 320.0,
+      "description": ""
+    },
+    {
+      "name": "Jaisalmer",
+      "price": 420.0,
+      "description": ""
+    },
+    {
+      "name": "Stranger & Sons",
+      "price": 320.0,
+      "description": ""
+    },
+    {
+      "name": "Bombay Sapphire",
+      "price": 420.0,
+      "description": ""
+    },
+    {
+      "name": "Tanqueray",
+      "price": 420.0,
+      "description": ""
+    },
+    {
+      "name": "Roku",
+      "price": 520.0,
+      "description": ""
+    },
+    {
+      "name": "Hendrick's",
+      "price": 520.0,
+      "description": ""
+    },
+    {
+      "name": "Monkey 47",
+      "price": 730.0,
+      "description": ""
+    }
+  ]
+}

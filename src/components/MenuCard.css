@@ -1,0 +1,106 @@
+.menu-card {
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(163, 126, 44, 0.15); /* gold thread border */
+  border-radius: 4px;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.menu-card:hover {
+  border-color: var(--gold-thread);
+  box-shadow: 0 16px 40px rgba(163, 126, 44, 0.08);
+  transform: translateY(-6px);
+}
+
+/* Image section */
+.menu-card-image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/10;
+  overflow: hidden;
+  background-color: var(--bg-void);
+}
+
+.menu-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  filter: brightness(0.9) contrast(1.02);
+}
+
+.menu-card:hover .menu-card-image {
+  transform: scale(1.06);
+}
+
+.menu-card-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(11, 10, 13, 0) 60%, rgba(20, 18, 23, 0.25) 100%);
+  pointer-events: none;
+}
+
+/* Floating Signature Badge */
+.menu-card-badge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background-color: var(--gold-thread);
+  color: #F5F2EB; /* cream text contrast */
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  padding: 6px 12px;
+  border-radius: 2px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+/* Content section */
+.menu-card-content {
+  padding: 24px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.menu-card-title {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--paper);
+  letter-spacing: -0.01em;
+}
+
+.menu-card-price {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--gold-thread);
+  white-space: nowrap;
+}
+
+.menu-card-description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--paper-dim);
+}

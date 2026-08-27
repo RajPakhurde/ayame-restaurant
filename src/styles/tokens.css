@@ -1,0 +1,14 @@
+:root {
+  /* Colors - Inverted Premium Light-Parchment/Cream Theme */
+  --bg-void: #F5F2EB;      /* page background — warm luxury cream paper */
+  --bg-panel: #FFFFFF;     /* card surfaces — clean white */
+  --iris: #4A3A75;         /* primary accent — deep rich royal iris purple */
+  --iris-dim: #C5BCD6;     /* muted accent — light purple lines, borders */
+  --paper: #1B181F;        /* primary text — near-black */
+  --paper-dim: #6B6660;    /* secondary / muted text */
+  --gold-thread: #A37E2C;  /* micro-accent — antique gold for prices and lines */
+
+  /* Fonts */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}

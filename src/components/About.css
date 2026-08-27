@@ -1,0 +1,143 @@
+.about-section {
+  padding: 120px 0;
+  background-color: var(--bg-void);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr; /* 62.5% to 37.5% split - asymmetric */
+  gap: 80px;
+  align-items: center;
+}
+
+/* Text Content Column */
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-eyebrow {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: var(--iris);
+  margin-bottom: 20px;
+}
+
+.about-headline {
+  font-size: 40px;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  margin-bottom: 32px;
+}
+
+.about-description {
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--paper-dim);
+  margin-bottom: 48px;
+  max-width: 580px;
+}
+
+.about-details {
+  display: flex;
+  gap: 48px;
+  border-top: 1px solid var(--iris-dim);
+  padding-top: 32px;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.detail-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--iris);
+  font-weight: 500;
+}
+
+.detail-value {
+  font-size: 14px;
+  color: var(--paper);
+}
+
+/* Image Wrappers and borders */
+.about-image-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.about-image {
+  width: 100%;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  border-radius: 4px;
+  position: relative;
+  z-index: 2;
+  filter: brightness(0.85) contrast(1.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.about-image-border {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: -20px;
+  bottom: -20px;
+  border: 1px solid var(--iris-dim);
+  border-radius: 4px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Responsive Pass */
+@media (max-width: 991px) {
+  .about-grid {
+    gap: 48px;
+    grid-template-columns: 1.1fr 0.9fr;
+  }
+  .about-headline {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-section {
+    padding: 72px 0;
+  }
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  .about-headline {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  .about-description {
+    font-size: 16px;
+    margin-bottom: 36px;
+  }
+  .about-details {
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 24px;
+  }
+  .about-image-wrapper {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .about-image-border {
+    top: 15px;
+    left: 15px;
+    right: -15px;
+    bottom: -15px;
+  }
+}
