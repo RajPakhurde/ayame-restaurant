@@ -24,18 +24,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="hero-section" id="hero">
-      {/* Decorative large bleeding Iris background SVG */}
-      <div className="hero-decorative-iris" aria-hidden="true">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="var(--iris-dim)" strokeWidth="0.8" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M50,90 C50,70 48,55 50,40" />
-          <path d="M50,40 C45,30 40,25 40,15 C45,15 48,22 50,30 C52,22 55,15 60,15 C60,25 55,30 50,40 Z" />
-          <path d="M50,40 C35,42 25,48 20,60 C25,62 35,55 45,45" />
-          <path d="M50,40 C65,42 75,48 80,60 C75,62 65,55 55,45" />
-          <path d="M45,35 C42,20 48,10 50,5 C52,10 58,20 55,35 Z" />
-        </svg>
-      </div>
-
+    <>
       {/* Navigation Header */}
       <motion.header 
         initial={{ opacity: 0, y: -16 }}
@@ -58,6 +47,18 @@ export default function Hero() {
           </a>
         </div>
       </motion.header>
+
+      <section className="hero-section" id="hero">
+        {/* Decorative large bleeding Iris background SVG */}
+        <div className="hero-decorative-iris" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="var(--iris-dim)" strokeWidth="0.8" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M50,90 C50,70 48,55 50,40" />
+            <path d="M50,40 C45,30 40,25 40,15 C45,15 48,22 50,30 C52,22 55,15 60,15 C60,25 55,30 50,40 Z" />
+            <path d="M50,40 C35,42 25,48 20,60 C25,62 35,55 45,45" />
+            <path d="M50,40 C65,42 75,48 80,60 C75,62 65,55 55,45" />
+            <path d="M45,35 C42,20 48,10 50,5 C52,10 58,20 55,35 Z" />
+          </svg>
+        </div>
 
       {/* Main Content Area */}
       <div className="container hero-container">
@@ -90,5 +91,6 @@ export default function Hero() {
       {/* Bottom overlay/indicator for layout spacing */}
       <div className="hero-bottom-fade"></div>
     </section>
+  </>
   );
 }
