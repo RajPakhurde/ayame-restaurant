@@ -1,7 +1,7 @@
 # Project Brief — Ayame Landing Page
 
 ## What
-A single-page React landing site for **Ayame**, a modern Asian fusion lounge in CBD Belapur, Navi Mumbai. Built as a **portfolio demo piece** — not an official commission — to showcase frontend design and React skills. Features a custom tightly-spaced Pinterest-style masonry photo gallery displaying 15 unique, high-resolution food and ambience images, a layout locking Hero elements horizontally to the left 50% column and centering them vertically, a 75% dark overlay mask and softened warm cream typography for optimal legibility, upgraded CTA buttons, a fixed glassmorphic navigation header, glassmorphic Menu Highlights with thin gold-thread borders and floating signature badges, a full menu interactive lightbox modal displaying the high-resolution menu sheets, and premium fluid animations using Framer Motion.
+A single-page React landing site for **Ayame**, a modern Asian fusion lounge in CBD Belapur, Navi Mumbai. Built as a **portfolio demo piece** — not an official commission — to showcase frontend design and React skills. Features a custom tightly-spaced Pinterest-style masonry photo gallery displaying 15 unique, high-resolution food and ambience images, a layout locking Hero elements horizontally to the left 50% column and centering them vertically, a 75% dark overlay mask and softened warm cream typography for optimal legibility, upgraded CTA buttons, a fixed glassmorphic navigation header, glassmorphic Menu Highlights with thin gold-thread borders and floating signature badges, a full menu interactive lightbox modal displaying the high-resolution menu sheets, an animated restaurant preloader loading screen, and premium fluid animations using Framer Motion.
 
 ## Why
 Portfolio piece #1 of 3 (restaurant category). Goal: demonstrate that I can take a real, existing brand and design a page that could plausibly be pitched to them — strong visual identity, conversion-minded structure (hero → menu → reserve), and clean React code.
@@ -34,3 +34,6 @@ Portfolio piece #1 of 3 (restaurant category). Goal: demonstrate that I can take
 - `content.md` — actual copy and data for every section
 - `tech_stack.md` — stack choices and setup
 - `tasks.md` — build checklist in order
+
+## Repository
+- GitHub: [ayame-restaurant](https://github.com/RajPakhurde/ayame-restaurant.git)

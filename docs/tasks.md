@@ -77,7 +77,7 @@ Ordered checklist. Work top to bottom; don't jump to polish (animation, responsi
 - [x] Test on an actual mobile device, not just devtools
 
 ## 9. Deploy
-- [ ] Push to GitHub
+- [x] Push to GitHub
 - [ ] Connect repo to Vercel or Netlify
 - [ ] Verify deployed site matches local build
 - [ ] Add live link + screenshots to portfolio
